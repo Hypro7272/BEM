@@ -1,0 +1,167 @@
+*{padding: 0;margin: 0;border: 0;}
+/*обращение ко всем тегам, снимаем стандартные параметры тегам(у каждого тега свои параметры)*/
+*,*:before, *:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*убираем линии обводки у некоторых браузеров*/}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+/*уравнивает поведеине шрифтов и элементов для разных браузеров, запрещает самовольное увелечение шрифта на айфонах*/
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container{
+    max-width: 844px;
+    margin: 0px auto;
+}
+.wrapper{
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    flex: 1 1 auto;
+}
+.first{
+    background: url("../img/bg_header.png") no-repeat;
+
+
+}
+.first__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.first__logo{
+    padding: 160px 0px;
+    text-align: center;
+}
+.first__logo:active{
+    background: url("../img/loh.jpg") 50% no-repeat;
+}
+.first__text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.first__title{
+    text-transform: uppercase;
+    font-size: 34px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.first__subtitle{
+    text-transform: lowercase;
+    font-size: 26px;
+    color: #fff;
+}
+.first__a{
+    padding: 278px 0px 238px 0px;
+    text-align: center;
+}
+.first__a:active{
+    background: url("../img/chlen.jpg") center no-repeat;
+}
+.ssilka{
+    color: #fff;
+    padding: 16px 45px;
+    border: solid 1px #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.ssilka:hover{
+    border: solid 1px #79b8fd;
+    color: #79b8fd;
+}
+
+.menu{
+    background-color: #fff;
+    border: solid 1px #f2f2f2;
+
+
+
+}
+.menu__body{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.menu__body div:hover p{
+    color: #d8d8d8;
+}
+#p2:hover{
+    color: #f5eac6;
+}
+.menu__body p{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #3c3c3c;
+}
+.menu__home {
+    padding: 23px 0px;
+}
+.menu__about {
+    padding: 23px 0px;
+}
+.menu__portfolio{
+    padding: 23px 0px;
+}
+.menu__contact{
+    padding: 23px 0px;
+}
+#p2{
+    color: #ada074;
+}
+
+
+
+
+
+.footer{
+    background-color: #3c3c3c;
+}
+.footer__row{
+    display: flex;
+    height: 275px;
+}
+.footer__body{
+    display: flex;
+    flex-direction: column;
+}
+.footer__logo{
+    text-align: center;
+    padding: 48px 0px;
+}
+.footer_ssilki{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 0px 0px 30px 0px;
+    margin: ;
+}
+.footer_ssilki div{
+    padding: 0px 10px;
+}
+.footer_ssilki a{
+    color: #a4a4a4;
+}
+.footer_nadpis{
+    padding: 0px 0px 50px 0px;
+    color: #6c6c6c;
+    text-align: center;
+}
+
+
