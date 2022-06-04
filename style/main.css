@@ -20,7 +20,7 @@ body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .container{
-    max-width: 844px;
+    max-width: 1120px;
     margin: 0px auto;
 }
 .wrapper{
@@ -114,6 +114,7 @@ body{
 }
 .menu__about {
     padding: 23px 0px;
+    text-wrap: none;
 }
 .menu__portfolio{
     padding: 23px 0px;
@@ -124,6 +125,279 @@ body{
 #p2{
     color: #ada074;
 }
+
+
+.second{
+    background-color: #fff;
+}
+.second__row{
+    display: flex;
+    flex-direction: column;
+}
+.second__title{
+    padding: 132px 0px 73px 0px;
+}
+.second__title p{
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 1.6px;
+    font-weight: 500px;
+}
+.second__text{
+    padding: 0px 0px 72px 0px;
+}
+.second__text p{
+    font-size: 14px;
+    color: #868585;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+.second__body{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+
+
+
+.second__web{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+.second__01{
+    padding-bottom: 41px;
+}
+.second__01 img{
+    padding: 32px 25px;
+
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+.second__ios{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 0px 48px 0px 89px;
+}
+.second__02{
+    padding-bottom: 41px;
+}
+.second__02 img{
+    padding: 32px 32px;
+
+    overflow: visible;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+}
+
+
+
+
+.second__marketing{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+.second__03{
+    padding-bottom: 41px;
+}
+.second__03 img{
+    padding: 32px 25px;
+
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+}
+
+
+
+
+.tut{
+    font-size: 22px;
+    letter-spacing: 1.6px;
+    padding-bottom: 37px;
+}
+.puta{
+    font-size: 14px;
+    line-height: 26px;
+    color: #868585;
+}
+
+
+
+
+
+.third{
+    background-color: #f3f3f3;
+    height: 1690px;
+}
+
+.third__row{
+    display: flex;
+    flex-direction: column;
+}
+.third__title{
+    padding: 100px 0px;
+}
+.third__title p{
+    text-align: center;
+}
+.third__title p{
+    font-size: 34px;
+    letter-spacing: 1.6px;
+    color: #000000;
+}
+.third__list{
+    padding-bottom: 137px;
+    margin: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.third__list p{
+    font-size: 15px;
+}
+.p5 {
+    color: #ada074;
+}
+.third__blocks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 65px;
+}
+.third__blocks div{
+    margin: 10px;
+}
+.third__read{
+    text-align: center;
+}
+.a2{
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 17px 46px;
+}
+
+
+
+.fourth {
+    height: 390px;
+    background: url("../img/bg_header.png") 100% no-repeat;
+}
+.fourth__title p{
+    font-size: 30px;
+    letter-spacing: 6px;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
+.fourth__logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.fourth__4{
+    margin: 4px 0px 0px 0px;
+}
+
+
+
+
+
+.five{
+    background-color: #fff;
+}
+.five__row{
+    display: flex;
+    flex-direction: column;
+}
+.five__title {
+    padding: 185px 0px;
+}
+.five__title p{
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 1.6px;
+}
+.five__body{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 100px 0px;
+}
+.five__left{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px 0px 0px;
+}
+.five__formtop{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+.five__left p{
+    font-size: 14px;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-align: left;
+}
+.five__formtopleft{
+    padding: 0px 100px 0px 0px;
+}
+.nmm{
+    padding-bottom: 20px;
+    margin-left: 4px;
+}
+.five_inputi{
+    background-color: #f8f7f7;
+    border-top: solid 1px #000000;
+    height: 40px;
+    width: 200px;
+}
+.inputniz{
+    height: 150px;
+    width: 100%;
+}
+.five__right{
+    margin: 0px 270px 0px 0px;
+}
+.five__right p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.five__button{
+    text-align: end;
+
+}
+.five__button button{
+    background-color: #fff;
+}
+.five__button p{
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+.five__formbottom{
+    padding: 0px 0px 43px 0px;
+}
+
+
 
 
 
@@ -163,5 +437,7 @@ body{
     color: #6c6c6c;
     text-align: center;
 }
+
+
 
 
